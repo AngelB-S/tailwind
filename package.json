@@ -1,0 +1,22 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelB-S/tailwind.git"
+  },
+  "author": "Si",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelB-S/tailwind/issues"
+  },
+  "homepage": "https://github.com/AngelB-S/tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
