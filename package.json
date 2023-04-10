@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -o ./dist/build.css --minify"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/AngelB-S/tailwind#readme",
   "devDependencies": {
     "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "victormono": "^1.5.4"
   }
 }
